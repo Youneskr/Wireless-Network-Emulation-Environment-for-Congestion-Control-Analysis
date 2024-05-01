@@ -1,4 +1,4 @@
-## Network Simulation Environment
+## Network Emulation Environment
 
 This repository contains scripts and configurations for setting up a network emulation environment using Mininet-WiFi. The environment facilitates testing and analysis of various network scenarios, including congestion control, interference, and latency.
 
