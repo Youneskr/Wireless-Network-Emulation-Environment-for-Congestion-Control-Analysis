@@ -8,9 +8,8 @@
 
     Both functions ensure that the monitored metrics correspond to specific connections (defined by source IP, destination IP, and ports) and the employed congestion control scheme.
 
-    Usage: Include this header file in kernel modules to call the track() and track_bbr_phases() functions for metric monitoring in tcp.c and congestion control scheme sources code located in net/ipv4.
-    Note: For access across all kernel modules, place this header file in the kernel's include/linux directory.
-    This ensures seamless inclusion and utilization of its functions and definitions throughout the kernel.
+    Note: For access across all kernel modules, place this header file in the Linux kernel.
+    This ensures seamless inclusion and utilization of its functions throughout the kernel.
 
     Incoming optimization: The upcoming optimization of this module aims to enhance its flexibility by allowing the user to specify and monitor a specific TCP connection dynamically.
     Instead of statically predefined parameters in the code, users will have the ability to pass source and destination IP addresses and ports as options.
