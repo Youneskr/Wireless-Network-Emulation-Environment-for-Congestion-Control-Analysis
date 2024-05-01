@@ -8,9 +8,6 @@
 
     Both functions ensure that the monitored metrics correspond to specific connections (defined by source IP, destination IP, and ports) and the employed congestion control scheme.
 
-    Note: For access across all kernel modules, place this header file in the Linux kernel.
-    This ensures seamless inclusion and utilization of its functions throughout the kernel.
-
     Incoming optimization: The upcoming optimization of this module aims to enhance its flexibility by allowing the user to specify and monitor a specific TCP connection dynamically.
     Instead of statically predefined parameters in the code, users will have the ability to pass source and destination IP addresses and ports as options.
     This enhancement is particularly useful for monitoring TCP connections in Mininet WiFi experiments, where typical IP parameters like "10.0.0.1" and "10.0.0.2" are used as source and destination IPs.
