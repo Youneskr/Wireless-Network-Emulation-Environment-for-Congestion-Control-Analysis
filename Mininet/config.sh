@@ -28,15 +28,15 @@ $cmd h4 iperf -s -u -p 4447 > /dev/null &
 sleep 5
 
 # Clients
-$cmd h11 iperf -c -u "10.0.0.2" -p "2222" -t 3600 > /dev/null &
-$cmd h12 iperf -c -u "10.0.0.2" -p "2223" -t 3600 > /dev/null &
-$cmd h13 iperf -c -u "10.0.0.2" -p "2224" -t 3600 > /dev/null &
+$cmd h11 iperf -u -c "10.0.0.2" -p "2222" -t 3600 > /dev/null &
+$cmd h12 iperf -u -c "10.0.0.2" -p "2223" -t 3600 > /dev/null &
+$cmd h13 iperf -u -c "10.0.0.2" -p "2224" -t 3600 > /dev/null &
 
-$cmd h14 iperf -c -u "10.0.0.3" -p "3333" -t 3600 > /dev/null &
-$cmd h15 iperf -c -u "10.0.0.3" -p "3334" -t 3600 > /dev/null &
-$cmd h16 iperf -c -u "10.0.0.4" -p "3335" -t 3600 > /dev/null &
+$cmd h14 iperf -u -c "10.0.0.3" -p "3333" -t 3600 > /dev/null &
+$cmd h15 iperf -u -c "10.0.0.3" -p "3334" -t 3600 > /dev/null &
+$cmd h16 iperf -u -c "10.0.0.4" -p "3335" -t 3600 > /dev/null &
 
-$cmd h17 iperf -c -u "10.0.0.4" -p "4444" -t 3600 > /dev/null &
-$cmd h18 iperf -c -u "10.0.0.4" -p "4445" -t 3600 > /dev/null &
-$cmd h19 iperf -c -u "10.0.0.4" -p "4446" -t 3600 > /dev/null &
-$cmd h20 iperf -c -u "10.0.0.4" -p "4447" -t 3600 > /dev/null &
+$cmd h17 iperf -u -c "10.0.0.4" -p "4444" -t 3600 > /dev/null &
+$cmd h18 iperf -u -c "10.0.0.4" -p "4445" -t 3600 > /dev/null &
+$cmd h19 iperf -u -c "10.0.0.4" -p "4446" -t 3600 > /dev/null &
+$cmd h20 iperf -u -c "10.0.0.4" -p "4447" -t 3600 > /dev/null &
