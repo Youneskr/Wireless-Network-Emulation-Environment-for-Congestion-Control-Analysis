@@ -15,10 +15,10 @@ The valid scenario numbers are [3, 4, 5, 6, 7], each representing a unique netwo
 The script sets up a wireless access point (ap1), 9 switches, a wireless station (h1), and 3 hosts (h2, h3, h4). 
 
 Usage:
-    python network_topology.py -sc <scenario_number>
+    python latency.py -sc <scenario_number>
 
 Example:
-    python network_topology.py -sc 5
+    python latency.py -sc 5
 
 This command sets up a network according to Scenario 5, introducing end-to-end propagation delay of 50ms.
 """
