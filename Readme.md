@@ -24,7 +24,7 @@ The project consists of the following files and directories:
 
 ## Scripts Overview
 
-# Root Directory
+### Root Directory
 
 - **`client.c`:** C program representing a TCP client socket with congestion control. It sends a specified amount of random data to a server and measures various metrics such as Round Trip Time (RTT) and Sending Rate.
 
@@ -33,7 +33,7 @@ The project consists of the following files and directories:
 - **`track_metrics.h`:** Header file defining functions to monitor various network metrics within the Linux kernel. It provides capabilities to track standard metrics such as CWND, BDP, and bandwidth, alongside BBR-specific parameters.
 
 
-# Mininet Directory
+### Mininet Directory
 
 - **`interference.py`:** Python script for setting up a network topology with interference. It supports scenarios with varying levels of interference.
 
@@ -41,7 +41,7 @@ The project consists of the following files and directories:
 
 - **`config.py`:** Sets up background traffic using iperf between servers and clients.
 
-# Scripts Directory
+### Scripts Directory
 
 - **`generate_fct_summary.sh`:** Bash script for generating a summary of flow completion times (FCT) for different congestion control schemes in a given scenario.
 
